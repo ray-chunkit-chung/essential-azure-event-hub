@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "eventHubNamespaceName": {
+      "value": "test2raynamespace"
+    },
+    "eventHubName": {
+      "value": "hubdatamigration"
+    },
+    "sqlServerName": {
+      "value": "test2raysql"
+    },
+    "sqlServerUserName": {
+      "value": "test2raysqluser"
+    },
+    "sqlServerPassword": {
+      "value": "test2raysqlpasswordAa123!"
+    },
+    "sqlServerDatabaseName": {
+      "value": "test2db"
+    },
+    "storageName": {
+      "value": "test2raystorage"
+    },
+    "functionAppName": {
+      "value": "test2rayfunction"
+    }
+  }
+}
