@@ -1,3 +1,14 @@
+# local
+local/
+
+# azurite
+__azurite_*.json
+__blob*/
+__queue*/
+
+# vscode
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
