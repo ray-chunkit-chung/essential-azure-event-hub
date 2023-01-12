@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "systemTopics_test2topic_name": {
+          "defaultValue": "test2topic",
+          "type": "String"
+      },
+      "Namespaces_test2raynamespace_externalid": {
+          "defaultValue": "/subscriptions/05505dc4-ec70-45df-9bd5-0f21eeec1e4e/resourceGroups/test2/providers/Microsoft.Eventhub/Namespaces/test2raynamespace",
+          "type": "String"
+      }
+  },
+  "variables": {},
+  "resources": [
+      {
+          "type": "Microsoft.EventGrid/systemTopics",
+          "apiVersion": "2022-06-15",
+          "name": "[parameters('systemTopics_test2topic_name')]",
+          "location": "eastus",
+          "tags": {
+              "group": "test2"
+          },
+          "identity": {
+              "type": "None"
+          },
+          "properties": {
+              "source": "[parameters('Namespaces_test2raynamespace_externalid')]",
+              "topicType": "Microsoft.Eventhub.Namespaces"
+          }
+      }
+  ]
+}
