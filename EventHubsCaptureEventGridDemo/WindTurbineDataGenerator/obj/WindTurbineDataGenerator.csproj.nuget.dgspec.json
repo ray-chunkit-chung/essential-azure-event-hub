@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/com.docker.devenvironments.code/EventHubsCaptureEventGridDemo/WindTurbineDataGenerator/WindTurbineDataGenerator.csproj": {}
+  },
+  "projects": {
+    "/com.docker.devenvironments.code/EventHubsCaptureEventGridDemo/WindTurbineDataGenerator/WindTurbineDataGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/com.docker.devenvironments.code/EventHubsCaptureEventGridDemo/WindTurbineDataGenerator/WindTurbineDataGenerator.csproj",
+        "projectName": "WindTurbineDataGenerator",
+        "projectPath": "/com.docker.devenvironments.code/EventHubsCaptureEventGridDemo/WindTurbineDataGenerator/WindTurbineDataGenerator.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/com.docker.devenvironments.code/EventHubsCaptureEventGridDemo/WindTurbineDataGenerator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
