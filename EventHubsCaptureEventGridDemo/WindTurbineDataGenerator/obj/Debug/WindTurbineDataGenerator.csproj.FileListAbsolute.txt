@@ -1,3 +1,0 @@
-C:\Users\ray\Desktop\src\essential-azure-event-hub\EventHubsCaptureEventGridDemo\WindTurbineDataGenerator\obj\Debug\WindTurbineDataGenerator.csproj.AssemblyReference.cache
-C:\Users\ray\Desktop\src\essential-azure-event-hub\EventHubsCaptureEventGridDemo\WindTurbineDataGenerator\obj\Debug\WindTurbineDataGenerator.csproj.SuggestedBindingRedirects.cache
-C:\Users\ray\Desktop\src\essential-azure-event-hub\EventHubsCaptureEventGridDemo\WindTurbineDataGenerator\obj\Debug\WindTurbineDataGenerator.csproj.CoreCompileInputs.cache
