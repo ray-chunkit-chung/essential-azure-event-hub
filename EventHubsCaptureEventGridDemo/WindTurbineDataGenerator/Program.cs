@@ -13,9 +13,12 @@ namespace WindTurbineDataGenerator
 {
   internal class Program
   {
+
     private const string EventHubConnectionString = System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE");
+    // private const string EventHubConnectionString = "Endpoint=sb://xxxxxx.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xxxxxxxxxxxxxxxxxxxxxxx";
 
     private const string EventHubName = System.Environment.GetEnvironmentVariable("EVENTHUB_NAME");
+    // private const string EventHubName = "hubdatamigration";
 
     private static int Main(string[] args)
     {
