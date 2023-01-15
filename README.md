@@ -130,7 +130,7 @@ export SECONDARY_CONNECTION_STRING="$(az eventhubs namespace authorization-rule 
 
 6.1 VSCode > Right-click WindTurbineDataGenerator project > Set as Startup project.
 
-6.2 Find program.cs > Replace <EVENT HUBS NAMESPACE CONNECTION STRING> & <EVENT HUB NAME>
+6.2 Find program.cs > Replace "EVENT HUBS NAMESPACE CONNECTION STRING" & "EVENT HUB NAME"
 
 ```C#
 private const string EventHubConnectionString = System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE");
